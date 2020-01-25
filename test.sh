@@ -1,10 +1,10 @@
 #!/bin/bash
 
 # install the anuglar dependency
-npm install
+#npm install
 
 # build the application
-ng build --prod
+#ng build --prod
 
 # remove the container if exists or running
 if [ $(docker container ls -a -q --filter name=my_app_frontend_container) != '' ]; then
